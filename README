@@ -5,3 +5,9 @@ If the code is useful for you, please cite the above paper.
 Note that, the method was developed for audio recordings where the accompaniment of the singing voice exhibits consistent behaviour 
 throughout the recording. If you try it on arbitrary instrumentation, it will, most likely return results of low recall and 
 high precision. 
+
+To use the package, read the instructions in file mainFunction.m
+
+Best wishes,
+
+Aggelos Pikrakis
