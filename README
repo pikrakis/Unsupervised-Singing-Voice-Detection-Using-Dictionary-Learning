@@ -6,7 +6,12 @@ Note that, the method was developed for audio recordings where the accompaniment
 throughout the recording. If you try it on arbitrary instrumentation, it will, most likely return results of low recall and 
 high precision. 
 
-To use the package, read the instructions in file mainFunction.m
+To use the package:
+
+a) Install the K-SVD implementation from 
+http://www.cs.technion.ac.il/~ronrubin/software.html
+
+b) Read the instructions in file mainFunction.m
 
 Best wishes,
 
