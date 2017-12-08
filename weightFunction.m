@@ -1,4 +1,11 @@
 function [w]=weightFunction(X)
+% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
+%             Diaz-Banez
+%
+% Please reference the following paper:
+% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
+% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
+% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
 
 A=X; L=size(A,2);
 
@@ -21,12 +28,3 @@ for k=1:size(X,2)
     w(k)=sum(H(ind).*v);
 end
 
-
-% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
-%             Diaz-Banez
-% This software is a copy provided for PRIVATE, RESEARCH use, NOT to be redistributed.
-%
-% Please reference the following paper:
-% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
-% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
-% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.

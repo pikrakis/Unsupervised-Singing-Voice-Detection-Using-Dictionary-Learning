@@ -1,4 +1,12 @@
 function [binaryAudio,voiceSegments,backgroundSegments,aux]=segmenterEus(dlRuns,params,wins,fs)
+% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
+%             Diaz-Banez
+%
+% Please reference the following paper:
+% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
+% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
+% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
+
 
 for k=1:dlRuns
     params.initdict = randn(size(params.data,1),params.dictsize);
@@ -27,11 +35,3 @@ binaryAudio(bind)=1;
 backgroundSegments=detectSegments(binaryAudio);
 
 
-% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
-%             Diaz-Banez
-% This software is a copy provided for PRIVATE, RESEARCH use, NOT to be redistributed.
-%
-% Please reference the following paper:
-% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
-% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
-% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.

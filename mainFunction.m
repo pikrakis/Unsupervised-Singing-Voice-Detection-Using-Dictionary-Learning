@@ -1,4 +1,4 @@
-function [binarySequence,voiceSegments,backgroundSegments,w,x,fs]=UnsupervisedSegmentationEusipco2016(fstr,winl,wins,dictsize,sparsity,dlRuns)
+function [binarySequence,voiceSegments,backgroundSegments,w,x,fs]=mainFunction(fstr,winl,wins,dictsize,sparsity,dlRuns)
 
 % INPUT
 % fstr  : path to the audio file
@@ -22,7 +22,6 @@ function [binarySequence,voiceSegments,backgroundSegments,w,x,fs]=UnsupervisedSe
 %
 % Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
 %             Diaz-Banez
-% This software is a copy provided for PRIVATE, RESEARCH use, NOT to be redistributed.
 %
 % Please reference the following paper:
 % Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,

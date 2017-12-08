@@ -1,4 +1,11 @@
 function S=barkBandsFeature(x,winl,wins,fs)
+% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
+%             Diaz-Banez
+%
+% Please reference the following paper:
+% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
+% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
+% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
 
 edges=[0 100;100 200;200 300;300 400;400 510;510 630;630 770
     770 920;920 1080;1080 1270;1270 1480;1480 1720;1720 2000
@@ -17,11 +24,3 @@ V=abs(spectrogram(x,winl,winl-wins,[],fs));
 V(length(fk)+1:end,:)=[];
 S=aux*V;
 
-% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
-%             Diaz-Banez
-% This software is a copy provided for PRIVATE, RESEARCH use, NOT to be redistributed.
-%
-% Please reference the following paper:
-% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
-% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
-% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
