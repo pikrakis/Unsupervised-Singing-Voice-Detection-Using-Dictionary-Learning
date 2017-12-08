@@ -1,0 +1,3 @@
+Implementation of the algorithm in: Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez, "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
+
+If the code is useful for you, please cite the above paper.
