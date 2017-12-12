@@ -3,7 +3,7 @@ function seg=detectSegments(winner)
 % seg=detectSegments(winner)
 % Given a sequence of binary classification decisions, computes the
 % endpoints of the segments that have been formed. A seqment is a sequence
-% of consecutive ones. This is an auxiliary function.
+% of successive 1s. This is an auxiliary function.
 %
 % INPUT
 % winner : binary sequence (zero stands for background, one for the singing voice)
