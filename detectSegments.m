@@ -28,11 +28,3 @@ if seg(end,2)==0
     seg(end,2)=ind(end);
 end
 
-% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
-%             Diaz-Banez
-% This software is a copy provided for PRIVATE, RESEARCH use, NOT to be redistributed.
-%
-% Please reference the following paper:
-% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
-% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
-% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
