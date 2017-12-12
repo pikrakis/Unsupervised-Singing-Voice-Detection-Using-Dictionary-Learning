@@ -1,9 +1,4 @@
 function [w]=weightFunction(X)
-%
-% Please reference the following paper:
-% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
-% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
-% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
 
 A=X; L=size(A,2);
 
