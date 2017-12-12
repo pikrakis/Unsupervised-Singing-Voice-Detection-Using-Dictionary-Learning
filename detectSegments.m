@@ -11,11 +11,6 @@ function seg=detectSegments(winner)
 % OUTPUT
 % seg: array of segment endpoints, one row per segment
 %
-%
-% Please reference the following paper:
-% Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
-% "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
-% European Signal Processing Conference (EUSIPCO), Budapest, Hungary, 2016.
 
 seg=[];
 ind=find(winner>0);
