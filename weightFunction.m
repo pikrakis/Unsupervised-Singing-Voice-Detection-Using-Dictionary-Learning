@@ -1,6 +1,4 @@
 function [w]=weightFunction(X)
-% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
-%             Diaz-Banez
 %
 % Please reference the following paper:
 % Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
