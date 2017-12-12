@@ -20,9 +20,6 @@ function [binarySequence,voiceSegments,backgroundSegments,w,x,fs]=mainFunction(f
 % fs                : audio signal sampling rate
 %
 %
-% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
-%             Diaz-Banez
-%
 % Please reference the following paper:
 % Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
 % "Unsupervised Singing Voice Detection Using Dictionary Learning", 24th
