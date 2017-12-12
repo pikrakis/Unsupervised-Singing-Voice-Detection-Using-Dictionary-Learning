@@ -1,6 +1,4 @@
 function [binaryAudio,voiceSegments,backgroundSegments,aux]=segmenterEus(dlRuns,params,wins,fs)
-% Copyright   :Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel
-%             Diaz-Banez
 %
 % Please reference the following paper:
 % Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
