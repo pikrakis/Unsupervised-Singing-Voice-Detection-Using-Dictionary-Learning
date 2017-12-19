@@ -6,6 +6,8 @@ Aggelos Pikrakis, Yannis Kopsinis, Nadine Kroher, Jose Miguel Diaz-Banez,
 
 If the code is useful for you, please cite the above paper.
 
+The software is provided by the authors for research purposes only, in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
+
 Note that, the method was developed for audio recordings where the accompaniment of the singing voice exhibits 
 consistent behaviour throughout the recording. If you try it on arbitrary instrumentation, it will, most likely return 
 results of low recall and high precision. 
